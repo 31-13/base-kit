@@ -49,7 +49,7 @@ export default function HeaderLinks(props) {
             <Link href="/authors/Bruno-Mars">
               <a className={classes.dropdownLink}>Bruno Mars</a>
             </Link>,
-            <Link href="/authors/Bad-Bunny">
+            <Link href="/authors/Rachell-Batista">
               <a className={classes.dropdownLink}>Bad Bunyy</a>
             </Link>,
           ]}
