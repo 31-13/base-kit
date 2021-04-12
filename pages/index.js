@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -14,18 +13,19 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
+
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 
 //Styles
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 const useStyles = makeStyles(styles);
+
 export default function Index(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <>
+    <div>
       <Header
         color="transparent"
         rightLinks={<HeaderLinks />}
@@ -60,6 +60,6 @@ export default function Index(props) {
           <WorkSection />
         </div>
       </div>
-    </>
+    </div>
   );
 }
