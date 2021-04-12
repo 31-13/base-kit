@@ -60,7 +60,7 @@ export default function Author4(props) {
                     <img src={profiles} alt="..." className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Bad Bunny</h3>
+                    <h3 className={classes.title}>Rachell Batista</h3>
                     <h6>Singer</h6>
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
